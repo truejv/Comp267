@@ -6,7 +6,7 @@ USE movieTheater;
 
 create table movie(
 MOVIE_ID varchar(15),
-STUDIO_NAME varchar(15),
+STUDIO_NAME varchar(20),
 MOVIE_TITLE varchar(25),
 PRIMARY KEY (MOVIE_ID)
 );
@@ -29,21 +29,11 @@ PRIMARY KEY (CUSTOMER_ID)
 
 create table ticket(
 TICKET_ID varchar(15),
-CUSTOMER_ID varchar(15),
+CUSTOMER_ID varchar(15) default NULL,
 ROOM_ID varchar(4),
 TICKET_PRICE float(4),
 SALE_DATE date,
 PRIMARY KEY (TICKET_ID),
 FOREIGN KEY (CUSTOMER_ID) references customer(CUSTOMER_ID),
 FOREIGN KEY (ROOM_ID) references theaterRoom(ROOM_ID)
-);
-
-create table ticketSale(
-ORDER_NUM varchar(20),
-TICKET_ID varchar(15),
-CUSTOMER_ID varchar(15),
-QAUNT_SOLD int(3),
-PRIMARY KEY (ORDER_NUM),
-FOREIGN KEY (TICKET_ID) references ticket(TICKET_ID),
-FOREIGN KEY (CUSTOMER_ID) references customer(CUSTOMER_ID)
 );
