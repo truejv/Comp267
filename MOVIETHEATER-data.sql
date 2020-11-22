@@ -19,6 +19,9 @@ insert into theaterRoom values('114','UJ-58900','45');
 insert into theaterRoom values('115','CZ-97069','45');
 insert into theaterRoom values('116','LE-45069','30');
 insert into theaterRoom values('117','PT-17540','30');
+insert into theaterRoom values('118','XG-677820','45');
+insert into theaterRoom values('119','UH-56770','45');
+insert into theaterRoom values('120','UJ-58900','45');
 
 insert into customer values('5855699','Ariya','Goodwin','336-544-7689');
 insert into customer values('7655699','Emanuel ','Hurst','336-565-5589');
@@ -35,6 +38,17 @@ insert into ticket values('29GCW7K','2102499','114','7.99','2020-08-15');
 insert into ticket values('YB70MST','5855699','110','7.99','2020-08-15');
 insert into ticket values('IV9MIBX3', null ,'115','7.99','2020-08-15');
 insert into ticket values('052ACM1','8761249','113','7.99','2020-08-15');
+
+insert into ticket values('96YD609G','7337549','118','7.99','2020-08-15');
+insert into ticket values('Q2SVD53Z', null ,'118','7.99','2020-08-15');
+insert into ticket values('X7MNU1XH','8761249','119','7.99','2020-08-15');
+insert into ticket values('EDG616R0','3024014','120','7.99','2020-08-16');
+insert into ticket values('ZADF9Q1W','2102499','118','5.99','2020-08-16');
+insert into ticket values('ZZQGZFBL', null ,'120','7.99','2020-08-17');
+insert into ticket values('US7M385D','0546589','119','7.99','2020-08-16');
+insert into ticket values('WVYOJO9I',null,'119','7.99','2020-08-16');
+insert into ticket values('HSVXR8JE','2102499','118','7.99','2020-08-16');
+
 insert into ticket values('S24GL6F','7337549','111','7.99','2020-08-16');
 insert into ticket values('8I5H7AS','2102499','112','5.99','2020-08-16');
 insert into ticket values('P035ZGRM', null ,'116','7.99','2020-08-17');
