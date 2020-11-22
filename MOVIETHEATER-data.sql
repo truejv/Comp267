@@ -9,7 +9,7 @@ insert into movie values('CZ-97069','Columbia Pictures','Zombieland: Double Tap'
 insert into movie values('PT-17540','Paramount','Overlord');
 insert into movie values('LE-45069','Lionsgate','Antebellum');
 insert into movie values('UJ-58900','Universal Pictures','The Hunt');
-insert into movie values('XG-677820','XYZ Films','The Hunt');
+insert into movie values('XG-677820','XYZ Films','The Silencing');
 
 insert into theaterRoom values('110','LD-13890','45');
 insert into theaterRoom values('111','UH-56770','45');
