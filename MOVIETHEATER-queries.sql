@@ -11,8 +11,8 @@ select * from customer;
     -- At least one complex query involving two or more tables 
     -- At least one complex query involving aggregate functions and GROUP BY and HAVING SQL clauses
 
--- finds total sales for 8-15-2020 
-select SALE_DATE, sum(TICKET_PRICE) from ticket where SALE_DATE = '2020-08-15';
+-- finds total sales for each day
+select SALE_DATE, sum(TICKET_PRICE) as 'Daily Total' from ticket group by SALE_DATE order by SALE_DATE;
 
 
 -- Create at least one view
