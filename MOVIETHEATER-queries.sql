@@ -23,13 +23,17 @@ select TICKET_PRICE, count(TICKET_ID) from ticket group by TICKET_PRICE;
 select MOVIE_ID, count(ROOM_ID) from theaterRoom group by MOVIE_ID;
 
 -- Create at least one view
-
-
+-- a view of all theater rooms showing lionsgate movies
+create view Lionsgate as select * from movie natural join theaterRoom where STUDIO_NAME='Lionsgate';
+select * from Lionsgate;
 
 -- Write at least three update operations to change the data in at least two different tables.
     -- At least one update operation modifying a value involving two or more tables
     -- At least one update operation removing data from the database involving two or more tables including commands that were NOT in the previous update. 
 
-update movie set MOVIE_NAME='' where MOVIE_ID ='LE-45069';
+-- antebellum is switched for the lionsgate movie Run, which is a $7.99 movie
+update movie, ticket set MOVIE_TITLE='Run', TICKET_PRICE='7.99' where MOVIE_ID ='LE-45069' and ROOM_ID='116';
 -- a row of seats is added to theater room 112
  update theaterRoom set ROOM_CAP = '45' where theaterRoom.ROOM_ID ='112';
+-- delete
+delete from customer, ticket using customer natural join ticket where CUSTOMER_ID='0546589';

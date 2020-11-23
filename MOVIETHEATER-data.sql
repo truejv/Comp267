@@ -38,7 +38,6 @@ insert into ticket values('29GCW7K','2102499','114','7.99','2020-08-15');
 insert into ticket values('YB70MST','5855699','110','7.99','2020-08-15');
 insert into ticket values('IV9MIBX3', null ,'115','7.99','2020-08-15');
 insert into ticket values('052ACM1','8761249','113','7.99','2020-08-15');
-
 insert into ticket values('96YD609G','7337549','118','7.99','2020-08-15');
 insert into ticket values('Q2SVD53Z', null ,'118','7.99','2020-08-15');
 insert into ticket values('X7MNU1XH','8761249','119','7.99','2020-08-15');
@@ -48,15 +47,14 @@ insert into ticket values('ZZQGZFBL', null ,'120','7.99','2020-08-17');
 insert into ticket values('US7M385D','0546589','119','7.99','2020-08-16');
 insert into ticket values('WVYOJO9I',null,'119','7.99','2020-08-16');
 insert into ticket values('HSVXR8JE','2102499','118','7.99','2020-08-16');
-
 insert into ticket values('S24GL6F','7337549','111','7.99','2020-08-16');
 insert into ticket values('8I5H7AS','2102499','112','5.99','2020-08-16');
-insert into ticket values('P035ZGRM', null ,'116','7.99','2020-08-17');
+insert into ticket values('P035ZGRM', null ,'116','5.99','2020-08-17');
 insert into ticket values('VKJA1K5','0546589','117','7.99','2020-08-16');
-insert into ticket values('T5VYG862','2102499','116','7.99','2020-08-16');
+insert into ticket values('T5VYG862','2102499','116','5.99','2020-08-16');
 insert into ticket values('HGJ949U3','0709210','115','7.99','2020-08-16');
 insert into ticket values('JJA0JZ7H','9125387','115','7.99','2020-08-16');
-insert into ticket values('GSIL3VTP', null ,'116','7.99','2020-08-17');
+insert into ticket values('GSIL3VTP', null ,'116','5.99','2020-08-17');
 insert into ticket values('UULCVAJT', null ,'112','7.99','2020-08-17');
 insert into ticket values('FDS8PTQY','2800570','114','7.99','2020-08-17');
 insert into ticket values('2EGICU4Z','5855699','113','7.99','2020-08-17');

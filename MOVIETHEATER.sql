@@ -34,6 +34,6 @@ ROOM_ID varchar(4),
 TICKET_PRICE float(4),
 SALE_DATE date,
 PRIMARY KEY (TICKET_ID),
-FOREIGN KEY (CUSTOMER_ID) references customer(CUSTOMER_ID),
+FOREIGN KEY (CUSTOMER_ID) references customer(CUSTOMER_ID) ON DELETE CASCADE,
 FOREIGN KEY (ROOM_ID) references theaterRoom(ROOM_ID)
 );
